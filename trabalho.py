@@ -27,7 +27,7 @@ else:
     print("Você reprovou")
 
 #5
- temperatura= int(input("Digite a temperatura: "))
+temperatura= int(input("Digite a temperatura: "))
 
 if temperatura>= 30:
     print("A temperatura está quente")
@@ -42,7 +42,7 @@ else:
     print(f"O número {numero2} é menor ou igual a 10.")
 
 #7
-    salario = int(input("Digite seu salario:"))
+salario = int(input("Digite seu salario:"))
 if  salario >=3000 :
     print("O salario é alto")
 else:
@@ -57,17 +57,17 @@ else:
     print("Sua idade é de um adolecente/adulto.")
 
 #9
-numero3= int(input("Digite a sua idade: "))
+numero3= int(input("Digite um numero: "))
 
-if numero3 = 0:
+if numero3 == 0:
     print("Seu numero é igual a 0.")
 else:
     print("Seu numero é diferente de 0.")
 
 #10
-nome= int(input("Digite um nome: "))
+nome= input("Digite um nome: ")
 
-if nome = Maria:
+if nome == "Maria":
     print("Seu nome é igual a Maria.")
 else:
     print("Seu nome é diferente de Maria.")
@@ -75,7 +75,7 @@ else:
 #11
 senha = int(input("Digite a sua senha:"))
 
-if senha = 1234:
+if senha == 1234:
     print("Acesso permitido.")
 else:
     print("Acesso negado.")
